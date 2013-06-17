@@ -1,7 +1,4 @@
-from distutils.core import setup
-
-# see requirements.txt for dependencies
-
+from setuptools import setup
 
 
 setup(
@@ -30,5 +27,9 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Framework :: Django",
+    ],
+    install_requires=[
+        'creole>=1.2',
+        'Pygments>=1.2.2',
     ]
 )
